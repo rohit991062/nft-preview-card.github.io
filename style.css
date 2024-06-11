@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: hsl(217, 54%, 11%);
+}
+
+.main {
+    display: grid;
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    max-width: 280px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 5px black;
+    text-align: left;
+    margin: auto;
+}
+
+.illustration {
+    border-radius: 15px;
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    margin: 15px 0;
+}
+
+.value-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.value-time h2, .value-time h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+h2 {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+h3 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.value-time img {
+    margin-right: 5px;
+}
+
+.line {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin: 20px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.profile p {
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+    padding-left: 10px;
+}
+
+h4 {
+    display: inline;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        max-width: 90%;
+    }
+}
